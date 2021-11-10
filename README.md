@@ -14,3 +14,8 @@ During the training
 	 4. Email trainer
 - All slides, exercises, and course material will be kept in this repository during the training. This repository will be deleted one month after the training is over.
 - Note the [steps](https://github.com/vijaynathani/ShellProgramming/blob/aa4a6b71356ab527af2da82ef10eb2fd7f76894b/HowToLoginToLinux.md) to work in Linux.
+- Reference Material
+	* [Introduction to Linux](https://tldp.org/LDP/intro-linux/html/index.html)
+	* [Bash guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
+	* [Advanced Bash scripting guide](https://tldp.org/LDP/abs/html/index.html)
+	* [Gawk reference](https://www.gnu.org/software/gawk/manual/html_node/index.html)
