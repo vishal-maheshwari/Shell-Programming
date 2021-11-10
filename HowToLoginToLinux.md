@@ -10,5 +10,5 @@ Procedure to work in linux
 	* Change/Add ip address noted ealier.
 	* Change the font and colors, if requried
 	* Set Bell to none
-	* Save changes made.
+	* Save changes made for convenience.
 	* Open the Linux connection.

@@ -13,4 +13,4 @@ During the training
 	 3. WhatsApp the trainer at 9820332115
 	 4. Email trainer
 - All slides, exercises, and course material will be kept in this repository during the training. This repository will be deleted one month after the training is over.
-- Note the [steps]() to work in Linux.
+- Note the [steps](/vijaynathani/ShellProgramming/blob/main/HowToLoginToLinux.md) to work in Linux.
