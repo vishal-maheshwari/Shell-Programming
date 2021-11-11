@@ -1,2 +1,22 @@
-Github https://bit.ly/3bXyL4q
-or https://github.com/vijaynathani/ShellProgramming
+Training material on Github at https://bit.ly/3bXyL4q
+
+Day 1:
+File
+	r - read the file
+	w - change its contents
+	x - execute 
+super  user  group  others
+ugx    rwx   rwx    rwx
+100    111   000    000 = 700
+       111   111    100 = 774
+       110   110    110 = 666
+Dir
+	r - list
+        w - create / delete /rename
+	x - cd 
+  user group others
+  rwx  rwx   rwx
+  111  101   000 = 750
+
+* 10 * * 0 rm /tmp/at2
+* 13 * * 1-5 /kjkljlkj > /tmp/f1 2> /tmp/f
