@@ -1,0 +1,623 @@
+locate xyz.sh
+dnf list installed
+dnf list installed | grep locate
+sudo dnf install mlocate locate
+which locate
+locate locate
+locate locate | grep "locate$"
+man mlocate
+man locate
+man updatedb
+man updatedb.conf
+less /etc/updatedb.conf 
+cd datametica/
+ls
+cd d1
+ls -l
+locate xyz.sh
+cp abc.sh xyz.sh
+locate xyz.sh
+sudo updatedb
+locate xyz.sh
+locate xyz
+cd /etc/rc5.d/
+ls
+grep -i font *
+vi *
+ls -l
+cd ../init.d/
+ls
+cat README 
+grep -i font *
+cd ..
+ls
+cd rc5.d
+ls
+cd ..
+find . -regex '.*font.*'
+find . -regex '.*font.*' 2>/dev/null
+find . -regex '.*font.*' 2>/dev/null | less
+locate fontserver
+locate font | grep -i server
+locate font 
+locate font | grep -i server
+locate font | grep -i script
+locate font | grep -i service
+locate font | grep -i view
+locate root
+locate root | less
+df -h
+locate xyz.sh
+cd
+ls
+rm -rf tmp2
+cd datametica/
+ls
+ls d1
+ps -u vijay
+tty
+dmesg
+man dmesg
+which passwd
+ls -l /usr/bin | less
+ls -l /usr/bin | grep rws
+exit
+/sbin/ifconfig
+date
+ls
+mv abc.sh datametica/
+/sbin/ifconfig
+ls -l
+ls l /tmp/file1
+> /tmp/file1
+ls l /tmp/file1
+ls -l /tmp/file1
+ln -s /tmp/fileLink /tmp/file1
+ln -s /tmp/file1 /tmp/fileLink
+ls -l /tmp/file*
+ls -l /dev/tty
+mkfifo /tmp/pipe1
+ls -l /tmp/pipe1 
+ls > /tmp/pipe1 
+ls -l /dev/sda*
+df -h
+pwd
+ls -d /mnt
+cd /proc
+ls
+less cpuinfo 
+less meminfo 
+cat version 
+cd
+echo $PATH
+which ls
+oldPath="$PATH"
+PATH=""
+ls
+PATH="$oldPath"
+ls
+which
+which ls
+echo $PATH
+cd datametica/
+ls
+nl abc.sh 
+wc -l abc.sh
+which wc
+echo $PATH
+export PATH="$PATH:/sbin"
+ifconfig
+pwd
+cd /home/vijay/datametica/
+cd ../cdac
+pwd
+cat /etc/shells 
+ls -l /bin/bash
+ls -l /usr/bin/bash
+stat /bin/bash
+stat /usr/bin/bash
+cd ../datametica/
+stat abc.sh
+ln abc.sh xyz.sh
+ls 
+stat xyz.sh 
+stat /bin/bash
+stat /usr/bin/bash
+ls -l /bin/bash /usr/bin/bash
+nl /etc/passwd
+echo $UID
+id
+sh
+echo $SHELL
+sh
+echo $HOME
+echo ~
+quota -v
+quota 
+quota
+sudo quota
+which quota
+man quota
+quota -q
+alias
+alias vi
+cat /etc/bashrc
+cat ~/.bashrc
+alias ls
+cat ~/.bashrc
+cat /etc/hosts
+ls /tmp
+cd /var
+ls
+ls spool/
+cd
+ls -a
+man ls
+info ls
+ls
+ls -l .
+ls -ld .
+su - vijay2
+ls
+file bin
+file datametica/abc.sh 
+file datametica/xyz.sh 
+cd datametica/
+ls
+rm xyz.sh 
+mkdir d1
+cd d1
+pwd
+mv ../abc.sh .
+ls ..
+ls
+cp abc.sh /tmp
+cd ..
+cp -R d1 /tmp
+cp -vR d1 /tmp
+rm -r /tmp/d1
+mkdir d2
+rmdir d2
+cd ..
+find . -name abc.sh
+locate ls
+locate xyz.sh
+cp datametica/d1/abc.sh /tmp/xyz.sh
+file /tmp/xyz.sh 
+find /tmp -name xyz.sh
+locate xyz.sh
+sudo updatedb
+locate xyz.sh
+su -
+cd datametica/
+cd d1
+ls
+locate abc.sh
+locate which
+cp /dev/null which1
+locate which 
+find . -name which1
+locate which1
+locate xyz
+find /etc -name hosts
+find /etc -name hosts 2> /dev/null
+find / -name hosts 2> /dev/null
+locate hosts
+grep find ~/.bash_history 
+nl abc.sh 
+grep "a b" abc.sh 
+man grep
+grep vijay /etc/passwd
+ls
+ls a?b*
+ls 
+ls
+ls a?c*
+ls a\?c*
+ls
+mv which1 "my name"
+ls my\ name
+ls my name
+ls "my name"
+vi my\ name 
+cat my\ name 
+less my\ name 
+head my\ name 
+tail my\ name 
+ln my\ name name1
+ls -l
+rm my\ name 
+tail name1
+ln name1 name2
+vi name1
+tail name1
+tail name2
+stat name1
+stat name2
+ls
+rm name2
+ln -s name1 nameS
+ls -l
+cat nameS
+ls -l
+rm name1
+ls -l
+cat nameS
+rm nameS
+cd /tmp
+> f1
+ls -l f1
+chmod 700 f1
+ls -l f1
+id
+cat f1
+vi f1
+cat f1
+./f1
+chmod 740 f1
+ls -l f1
+chmod 760 f1
+chmod 777 f1
+chmod 770 f1
+hmod 774 f1
+chmod 774 f1
+mkdir demo1
+chmod 750 demo1
+ls -l demo1
+ls -ld demo1
+ls demo1
+cp /dev/null demo1/a
+cp /dev/null demo1/b
+ls demo1
+mv demo1/b demo1/c
+ls demo1
+cd demo1
+ls -ld .
+chmod o+x demo1
+chmod o+x .
+chmod o+rw .
+less /proc/meminfo 
+sudo dnf install locate
+pwd
+echo $HOME
+df -h
+cat /etc/updatedb.conf 
+echo $PATH
+echo $HOME
+ls ..
+cd
+ls ..
+pwd
+cd ..
+pwd
+ls 
+ls -l
+cd
+cd ../vijay3
+cd ~vijay3
+cd /var/tmp
+cd /usr/share/
+cd doc
+pwd
+cd /proc
+head cpuinfo 
+head meminfo 
+df -h
+uptime
+cat /etc/filesystems 
+cat /etc/rc.d
+cd /etc/rc.d
+ls
+cd ..
+cd rc5.d/
+ls
+cat *
+cd ../rc3.d/
+cat *
+ls
+cat *
+cd ../rc2.d/
+cat *
+cd /var/log/
+ls
+cd wtmp
+tail wtmp
+last | head -n 5
+cat /etc/logrotate.d/wtmp 
+cat /etc/redhat-release 
+uname -a
+cat /proc/version 
+cat /etc/motd
+cat /etc/localtime 
+ls -l /etc/localtime 
+locate | grep -i howto
+locate howto
+cd /usr/share/doc
+ls
+ls g*
+bash --version
+cd
+ls
+cd datametica/
+cd
+pwd
+ls -ld .
+mkdir demo3
+rmdir demo3
+mv datametica/ ..
+ls -ld /home
+pwd
+cp /usr/share/pixmaps/*.png /tmp
+mkdir etcCopy
+cp -r /etc/*  etcCopy/
+ls etcCopy/
+rm -rf etcCopy/
+cd datametica/
+ls
+mkdir Upper Lower
+cp -r /etc etcCopy
+ls
+find etcCopy/ -name '[a-z]*' | less
+find etcCopy/ -name '[a-z]*' -exec mv '{}' Lower/ \;
+ls
+ls ..
+ls
+cp -r /etc etcCopy 2> /dev/null
+find etcCopy/ -name '[a-z]*' -exec mv '{}' Lower/ \;
+rm -rf etcCopy/
+rm -rf Lower
+mkdir Lower
+find /etc -type f -name '[a-z]*' 2> /dev/null| less
+cp -r etc etcCopy
+cp -r /etc etcCopy 2>/dev/null
+find etcCopy -type f -name '[a-z]*' | less
+find etcCopy -type f -name '[a-z]*' -exec mv '{}' Lower \;
+find etcCopy -type f -name '[A-Z]*' -exec mv '{}' Upper/ \;
+ls Lower
+ls Upper/
+rm -rf etcCopy/
+rm -rf Upper/
+rm -rf Lower/
+ls
+locate font | grep viewer.service
+locate sendmail
+cd
+ln -s /var/tmp tmp1
+ls -l
+ln -s tmp2 tmp1
+ls -l
+ln -s tmp1 tmp2
+ls -l
+cd tmp2
+pwd
+ls 
+ls /var/tmp
+cd
+ls -l
+rm tmp1
+ls -l
+ls tmp2
+cd tmp2
+chmod 777 /home
+umask
+cp /dev/null t1
+ls -l t1
+chown /etc vijay
+chown vijay /etc
+chgrp vijay /etc
+ls -l .bashrc
+chmod o-r .bashrc
+ls -l .bashrc
+locate root | less
+df -h
+ln -s /root root1
+ls -l
+cd root1
+rm t1 root1
+sleep 30; echo yes
+sleep 30 &
+sleep 100 &
+sleep 200 &
+jobs
+echo yes
+sleep 60
+jobs
+bg %4
+jobs
+fg %4
+sleep 100
+jobs
+ps
+kill -9 4600
+ps
+kill 4593
+ps
+sleep 30
+sleep 30 &
+ps 
+ps -af
+echo $$
+ps 
+ps -a
+ps -f
+ps -ef 
+ps -ef  | grep vijay
+pstree | less
+man 7 signal
+passwd 
+which passwd
+ls -l /usr/bin/passwd 
+chmod 4777 /usr/bin/grep
+time sleep 5
+(sleep 10; echo yes) &
+cp /dev/null /tmp/at1
+at now + 1 minute 
+file /tmp/at1
+date
+atq
+file /tmp/at1
+man crontab
+man 5 crontab
+date
+crontab -e
+crontab -q
+crontab -e
+cp /dev/null /tmp/at2
+date
+man 5 crontab
+date
+file /tmp/at2
+date
+crontab -e
+pgrep
+pgrep bash
+who
+w
+find / abc &> /dev/null
+ps
+ps -u vijay
+ps -uf vijay
+ps -u vijay -f
+dmesg
+dmesg | tail -n 3
+dmesg | head -n 3
+time ls
+cd /proc
+ls
+echo $$
+ls -ld 1043
+ls -ld [0-9]*
+ls -ld [0-9]* | grep vijay
+ls -ld [0-9]* 
+cd 1043
+ls
+cat cmdline 
+uptime
+tty
+which passwd
+ls -l /usr/bin | grep rwx
+ls -l /usr/bin | grep rws
+su - 
+ls -a
+cd
+ls -a
+cat .bash_logout 
+(sleep 600; echo pasta ready) &
+at now + 30 minutes
+man 5 crontab
+cd datametica/
+ls
+cd d1
+ls
+cat abc.sh 
+cat abc.sh  > /tmp/f1
+cat /tmp/f1
+cat abc.sh xyz.sh > /tmp/f1
+set -o noclobber
+cat abc.sh xyz.sh > /tmp/f1
+rm /tmp/f1
+cat abc.sh xyz.sh > /tmp/f1
+set +o noclobber
+cat abc.sh xyz.sh > /tmp/f1
+cat abc.sh  | grep a
+cat abc.sh  | grep -v a
+cat
+cat < abc.sh 
+cat <abc.sh > /tmp/f1
+cat abc.sh >> /tmp/f1
+cat /tmp/f1
+cat nonexistant 2> /tmp/errors
+cat /tmp/errors 
+ls 2>&1 
+ls errors abc.sh 2>&1 > /tmp/f1
+ls errors abc.sh > /tmp/f1 2>&1
+cat /tmp/f1
+ls errors abc.sh &> /tmp/f1
+cat /tmp/f1
+cat /tmp/f1 | tee /tmp/f2 
+cat /tmp/f1
+cat /tmp/f2
+ls
+cat abc.sh | nl
+cat abc.sh | nl | grep echo
+cat abc.sh | nl | grep echo | wc -l
+ls -l /etc
+ls -l /etc | cut -c 1-10
+ls -l /etc | cut -c 2-11
+ls -l /etc | cut -c 2-11 | sort  | uniq
+ls -l /etc | sed 1d | cut -c 2-11 | sort  | uniq
+ls -l /etc | sed 1d | cut -c 2-11 | sort  | uniq | wc -l
+ls -l /etc | set 1d | cut -c 2-11
+ls -l /etc | sed 1d | cut -c 2-11
+ls -l /etc | sed 1d | cut -c 2-11 | sort  | uniq 
+ls -l /etc | sed 1d | cut -c 2-11 | sort  | uniq | wc -l
+date > /tmp/date1
+cat /tmp/date1
+ls >> /tmp/date1
+cat /tmp/date1
+mail -s "   < /tmp/date1
+mail vijay2 -s "   < /tmp/date1
+mail vijay2 -s "demo"   < /tmp/date1
+echo $UID
+ls -l /dev
+ls -l /dev | grep $UID
+ls -l /dev
+ls -l /dev | grep vijay
+cd /dev
+ls
+ls -l tty* | less
+cd /proc
+ls
+cat devices 
+ less devices 
+cat non
+file /sbin/ifconfig
+grep root /etc/passwd /etc/nofiles > /tmp/grep1
+cat /tmp/grep1
+ps -u vijay | wc -l
+cd
+ls -a .*
+ls -da .*
+ls -da .* | wc -l
+locate kernel
+locate kernel | grep ".gz$"
+cd /etc
+ grep "root:x:0" *
+ grep "root:x:0" * 2>/dev/null
+ grep -H "root:x:0" * 2>/dev/null
+cd /tmp
+> time; date >> time; cat < time
+cd /etc/init.d
+ls
+grep ssh *
+ls -l
+vi functions 
+vi *
+grep -h font *
+grep -h ls *
+grep -h sed *
+grep -H sed *
+exit
+cat /tmp/pipe1
+su - vijay2
+su - vijay3
+id
+su - vijay2
+su - vijay3
+cd /tmp
+cd demo1
+ls
+ls -l
+touch a
+ls -l
+cd ..
+cp /dev/null file3
+ls -l file3
+umask
+umask 0
+cp /dev/nul file4
+cp /dev/null file4
+ls -l file4
+top
+su - vijay2
+exit
