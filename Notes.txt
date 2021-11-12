@@ -1,5 +1,26 @@
 Training material on Github at https://bit.ly/3bXyL4q
 
+Day 2:
+- All commands given during the training on Day 1 are kept on Github.
+- setup for login:
+		/etc/profile (/etc/bashrc)
+		~/.bash_profile (~/.bashrc)
+- IN linux, startx
+		only ~/.bashrc
+
+- apt-get
+  dnf
+- tar
+	z - gzip /gunzip
+        j - bzip2
+
+- Friday - full backup 
+   Monday - incr backup
+
+- tar incremental backups
+	1. -N 
+	2. -g
+======================================
 Day 1:
 File
 	r - read the file
