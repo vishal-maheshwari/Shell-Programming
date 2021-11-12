@@ -17,5 +17,6 @@ During the training
 - Reference Material
 	* [Introduction to Linux](https://tldp.org/LDP/intro-linux/html/index.html)
 	* [Bash guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
+	* [Regular expressions](https://drive.google.com/file/d/1RoRr62WoBO9CjbZDg07I6riOtxCZwEly/view?usp=sharing)
 	* [Advanced Bash scripting guide](https://tldp.org/LDP/abs/html/index.html)
 	* [Gawk reference](https://www.gnu.org/software/gawk/manual/html_node/index.html)
