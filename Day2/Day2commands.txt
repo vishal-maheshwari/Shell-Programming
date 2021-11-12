@@ -1,0 +1,324 @@
+echo $VISUAL
+echo $var1
+echo $var2
+exit
+echo $var1
+echo $var2
+env | less
+exit
+echo $var3
+exit
+cd datametica/d2
+ls
+cp Readme.txt t1.txt
+man rsync
+cd /tmp
+ls
+gzip BackupNew.tar 
+ls -l BackupNew*
+gunizp BackupNew.tar.gz 
+gunzip BackupNew.tar.gz 
+ls -l Backup*
+man rsync
+bc
+man bc
+echo "sqrt(25)" | bc
+man bc
+echo "sqrt(26)" | bc
+echo "sqrt(30)" | bc
+exit
+cd datametica/
+ls
+mkdir d2
+cd d2
+lftp -u vij,vij1 192.168.0.100
+man rsync
+set | grep -i MaCh
+locate gunzip
+locate gzip
+locate tar
+locate tar | grep -i man
+locate gcc | grep -i man
+locate gcc | grep -i "gz$"
+locate gcc | less
+locate gcc 
+sudo updatedb
+locate gcc 
+locate gunzip | less
+locate gunzip | grep "gz$"
+locate tar | grep "gz$"
+locate datamet
+pwd
+locate datametica
+ls /etc/updatedb.conf 
+sudo vi /etc/updatedb.conf
+sudo updatedb
+locate datametica
+su - vijay2
+pwd
+ls
+cd
+cd datametica/d2
+ls
+./login.sh 
+echo $?
+./login.sh 
+echo $?
+./login.sh 
+echo $?
+./login.sh 
+echo $?
+cp login.sh stars.sh
+./stars.sh 
+echo $?
+./stars.sh 
+echo $?
+cp stars.sh countDirs.sh
+./countDirs.sh 
+ps
+echo $$
+./countDirs.sh 
+ls /tmp/abc*
+./countDirs.sh 
+ls /tmp/abc*
+./countDirs.sh 
+cp countDirs.sh largest.sh
+./largest.sh 
+cp largest.sh factorial.sh
+./factorial.sh 
+./factorial.sh 3
+./factorial.sh 
+./factorial.sh 3
+./factorial.sh 
+echo $?
+./factorial.sh 5 6
+./factorial.sh 5 
+echo $?
+exit
+cd datametica/d2
+rm ~/.bash_history 
+/sbin/ifconfig
+ddddd
+ping 8.8.8.8
+ulimit -a
+/sbin/ifconfig
+ulimit -a
+var1="my name is ..."
+var2="I am in ..."
+echo $var1
+echo $var2
+echo $VISUAL
+echo $SHELL
+/bin/bash
+export var1
+/bin/bash
+set | less
+set | grep var
+set | grep var1
+set | grep var2
+env | grep PATH
+export var3="hello"
+bash
+cat ~/.bashrc
+cat ~/.bash_profile
+echo $HOME
+ehco $HOSTNAME
+echo $HOSTNAME
+echo $LOGNAME
+echo $OSTYPE
+echo PS1
+echo $PS1
+PS1="[\u at \W]$ "
+ls
+cat < " 
+
+
+line3
+"
+cat < "a
+b
+c"
+echo "a
+b
+c
+"
+PS2=">>"
+echo "a
+
+"
+nl /etc/profile
+vi /etc/profile
+ls -l ~/.bash_profile
+vi ~/.bash_profile 
+cat ~/.bash_logout 
+ls
+rm t1.txt Readme.txt 
+vi abc.sh
+nl abc.sh
+bash abc.sh
+chmod a+x abc.sh 
+./abc.sh
+vi ./abc.sh
+nl abc.sh
+./abc.sh
+vi abc.sh
+file abc.sh
+vi abc.sh
+nl abc.sh
+file abc.sh 
+./abc.sh
+sudo dnf install bat
+ls
+cat abc.sh 
+bat abc.sh
+psql mydb
+echo "show employees" | psql mydb 
+echo "show table employees" | psql mydb 
+echo "describe table employees" | psql mydb 
+psql mydb
+echo "desc Employees" | psql mydb 
+echo "select * from Employees;" | psql mydb 
+echo "select * from Employees;" | psql mydb  > /tmp/f1
+cat /tmp/f1
+env
+env | grep -i mach
+env | grep -i mac
+env | grep -i type
+env | grep -i MAC
+set | grep -i MAC
+set | grep -i MACH
+nl abc.sh 
+./abc.sh 
+vi abc.sh
+nl abc.sh 
+./abc.sh 
+nano abc.sh
+ulimit -a
+man ulimit
+ulimit -c 10000
+ulimit -a
+ulimit -c 1000
+ulimit -a
+locate startx 
+cat /usr/share/man/man1/startx.1.gz 
+alias lll="ls -la"
+lll
+cp abc.sh tfile
+cat tfile
+cat tfile > tfile
+cat tfile
+lpq
+ls
+tar -cvf /tmp/d2.tar .
+tar -tvf /tmp/d2.tar
+cd ..
+cd d2
+rm *
+ls
+tar -xvf /tmp/d2.tar
+cat abc.sh 
+ls -l /tmp/d2.tar
+tar -zcvf /tmp/d2comp.tgz .
+ls -l /tmp/d2*
+rm *
+tar -zxvf /tmp/d2comp.tgz 
+cat abc.sh
+ls
+mkdir dir1
+cp /dev/null dir1/f1
+find .
+cd ..
+tar -zcvf /tmp/d2.tgz d2
+ls -l /tmp/d2.tgz
+tar -ztvf /tmp/d2.tgz 
+rm -rf d2
+ls
+tar -zxvf /tmp/d2.tgz
+ls d2
+cd d2
+ls
+cd ..
+tar -zxvf /tmp/d2.tgz
+rm /tmp/d2.tgz
+ls
+tar -cvf /tmp/BackupFriday.tar d2
+cd d2
+ls
+cp tfile t2file
+cd ..
+tar -N /tmp/BackupFriday.tar -cvf /tmp/BackupInrMonday.tar d2
+rm -rf d2
+tar -xvf /tmp/BackupFriday.tar 
+tar -xvf /tmp/BackupInrMonday.tar 
+ls
+rm /tmp/Backup*
+ls
+tar cvf /tmp/BackupFriday.tar -g /tmp/BackupTarStatus d2
+cd d2
+ls
+cp -r dir1 dir2
+ls dir2
+cd ..
+tar cvf /tmp/BackupIncrMonday.tar -g /tmp/BackupTarStatus d2
+rm -rf d2
+tar -xvf /tmp/BackupFriday.tar 
+tar -xvf /tmp/BackupIncrMonday.tar 
+cd /tmp
+lftp -u vij,vij1 192.168.0.100
+ls -l RegularExpressions.pdf 
+id
+scp BackupFriday.tar vijay2@192.168.0.100:scpDemo
+scp BackupFriday.tar vijay2@192.168.0.105:scpDemo
+scp BackupFriday.tar vijay2@192.168.0.105:.
+scp BackupFriday.tar vijay2@192.168.0.105:scpDemo .
+echo vijay1 | scp BackupFriday.tar vijay2@192.168.0.105:scpDemo .
+man scp
+scp vijay2@192.168.0.105:./BackupNew.tar .
+ls -l BackupNew.tar 
+cd
+cd datametica/
+find d2
+rm -rf d2/dir2 
+find d2
+rsync -avh --delete --stats d2 vijay@192.168.0.105:.
+rsync -avh --delete --stats d2 vijay2@192.168.0.105:.
+cd d2
+cp -rf dir1 dir2
+cd ..
+rsync -avh --delete --stats d2 vijay2@192.168.0.105:.
+cd d2
+ls
+vi t2file 
+cd ..
+rsync -avh --delete --stats d2 vijay2@192.168.0.105:.
+rm -rf ../d2/
+cd /home
+cp vijay /var/tmp -r
+tar -cvf /var/tmp/vijay.tar vijay
+cd /var/tmp
+ls *.tar
+ls -l vijay.tar 
+gzip vijay.tar 
+ls -l vijay.t*
+gunzip vijay.tar.gz 
+ls -l vijay.tar
+cat /etc/hosts
+cat /etc/resolv.conf 
+ip addr show
+/sbin/ifconfig
+host www.bing.com
+ping 8.8.8.8
+traceroute www.google.com
+whois datamatica.com
+vim a1.txt
+cat a1.txt 
+vimtutor
+cd
+cd datametica/
+cd d2
+ls
+cp abc.sh login.sh
+vi login.sh 
+exit
+startx
+exit
