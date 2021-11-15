@@ -1,0 +1,5 @@
+1:vijay:trainer:20:2005:shell
+2:name2:SDE:30:1999:python
+4:name4:PL:50:1998:clerk
+4:name4:manager:50:1998:agile
+3:name3:tester:40:2005:selenium

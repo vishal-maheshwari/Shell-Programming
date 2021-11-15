@@ -1,0 +1,359 @@
+cd datametica/d3
+./demo1.sh 
+./demo2.sh 
+./demo2.sh param1 param2
+./demo3.sh 
+nl demo1.sh 
+./demo3.sh 
+./demo4.sh 
+./demo5.sh
+cp /tmp/emp.txt .
+nl emp.txt 
+./demo5.sh
+seq 5
+./demo5.sh
+ls d*
+ls [a-e]*
+ls [a-d]*
+ls demo?.sh
+sha256sum demo1.sh
+sha256sum demo2.sh
+cp demo2.sh /tmp
+sha256sum /tmp/demo2.sh 
+find . -type f
+rm emp1.txt 
+./ex1.sh 
+cp emp.txt emp1.txt
+./ex1.sh 
+cp emp.txt emp2.txt
+./ex1.sh 
+nl demo5.sh 
+seq 5
+./demo5.sh 
+time ./ex1.sh
+cp ex1.sh ex2.sh
+sha256sum *.sh
+find . -type f -print0 | xargs -0 sha256sum
+./ex2.sh 
+ls
+./ex2.sh 
+a="abc def"
+echo ${a# *}
+echo "${a# *}"
+echo "${a% *}"
+echo "${a#* }"
+./ex2.sh 
+time ./ex2.sh 
+time ./ex1.sh 
+time ./ex2.sh 
+vi ex1.sh 
+echo "abc" | grep "a.c"
+echo "abxxxc" | grep "a.c"
+echo "abc" | grep "ab?c"
+echo "ac" | grep "ab?c"
+echo "abbc" | grep "ab?c"
+echo "abbc" | grep "ab*c"
+echo "ac" | grep "ab*c"
+echo "abbbbbbbbbbbbbbbc" | grep "ab*c"
+echo "abbbbbbbbbbbbbbbc" | grep "ab+c"
+echo "abbbbbbbbbbbbbbbc" | egrep "ab+c"
+echo "ac" | egrep "ab+c"
+echo "axc" | egrep "ab+c"
+echo "axc" | egrep "ab{2}c"
+echo "abc" | egrep "ab{2}c"
+echo "abbbc" | egrep "ab{2}c"
+echo "abbc" | egrep "ab{2}c"
+echo "abbc" | egrep "ab{2,5}c"
+echo "abbbbbbbc" | egrep "ab{2,5}c"
+echo "abbbbc" | egrep "ab{2,5}c"
+echo "abbbbc" | egrep "a[a-z]c"
+echo "abc" | egrep "a[a-z]c"
+echo "a1c" | egrep "a[a-z]c"
+echo "a1c" | egrep "^abc"
+echo "abc" | egrep "^abc"
+echo "the abc" | egrep "^abc"
+echo "the abc" | egrep "abc$"
+echo "the abc the" | egrep "abc$"
+echo "the abc the" | egrep "\babc\b"
+echo "theabc the" | egrep "\babc\b"
+echo "theabc the" | egrep "\<abc\>"
+echo "the abc the" | egrep "\<abc\>"
+echo "a1c" | egrep "a[[:alpha:]]c"
+echo "aAc" | egrep "a[[:alpha:]]c"
+echo "aAc" | egrep "a[[:alnum:]]c"
+echo "a1c" | egrep "a[[:alnum:]]c"
+cat emp.txt 
+vi emp.txt 
+nl emp.txt 
+grep ":CSS$" emp.txt 
+vi emp.txt 
+nl emp.txt 
+grep SDE emp.txt 
+egrep "^.*:.*:SDE:.*:.*:.*$" emp.txt 
+egrep "^(.*:){2}SDE:.*:.*:.*$" emp.txt 
+egrep "^(.*:){2}SDE(:.*){3}$" emp.txt 
+cut -d: -f 3 
+cut -d: -f 3 emp.txt
+cut -d: -f 3 emp.txt | grep SDE
+nl emp
+nl emp.txt 
+info sort
+./ex3.sh
+echo abc | grep a
+grep a <<< "abc"
+echo "abc
+def" | cat
+cat <<< "abc
+def"
+./ex3.sh 
+exit
+rm .bash_history 
+printf "%d" 25.3
+printf "%g" 25.3
+printf "%.0g\n" 25.3
+printf "%.0f\n" 25.3
+printf "%.0f\n" 25.6
+nl /etc/updatedb.conf 
+info updatedb.conf
+man updatedb.conf
+cd datametica/
+cd d3
+cp demo1.sh ex1.sh
+vi ex1.sh
+./ex1.sh 
+./ex1.sh /tmp
+vi ex1.sh 
+./ex1.sh 
+vi ex1.sh 
+cp emp.txt emp1.txt
+./ex1.sh
+man uniq
+vi ex1.sh
+./ex1.sh 
+vi ex1.sh 
+./ex1.sh 
+vi ex1.sh
+./ex1.sh 
+vi ex1.sh 
+time ./ex1.sh 
+ls
+cp ex2.sh ex3.sh
+vi ex3.sh
+./ex3.sh
+vi ex3.sh 
+./ex3.sh
+vi ex3.sh
+./ex3.sh
+vi ex3.sh 
+./ex3.sh
+vi ex3.sh
+./ex3.sh 
+nl ex3.sh
+cat /tmp/p.txt
+vi ex3.sh
+./ex3.sh 
+cat /tmp/p.txt 
+cat p.txt | sed 2d | sed  '.*>'
+cat p.txt | sed 2d | sed  's/.*>/d'
+cat /tmp/p.txt | sed 2d | sed  's/.*>/d'
+cat /tmp/p.txt | sed 2d | sed  's/.*>//'
+cat /tmp/p.txt | sed 2d | sed  's/.*">//'
+cat /tmp/p.txt | sed 2d | sed  -e 's/.*">//' -e 's/<.*//'
+echo "cat /tmp/p.txt | sed 2d | sed  -e 's/.*">//' -e 's/<.*//'" >> ex3.sh
+echo "cat /tmp/p.txt | sed 2d | sed  -e 's/.*">//' -e 's/<.*//' "
+cat /tmp/p.txt | sed 2d | sed  -e 's/.*">//' -e 's/<.*//'
+cat /tmp/p.txt | sed 2d | sed  -e 's/.*">//' -e 's/<.*//' 
+vi ex3.sh 
+./ex3.sh 
+vi ex3.sh 
+./ex3.sh
+cat ex3.sh
+cat /tmp/p.txt
+echo /tmp/p.txt | sed 's/.*t">//' 
+cat /tmp/p.txt | sed 's/.*t">//' 
+cat /tmp/p.txt | sed -e 's/.*t">//'  -e sed 's/<.*//'
+cat /tmp/p.txt | sed -e 's/.*t">//' 
+cat /tmp/p.txt | sed -e 's/.*t">//' -e 's/<.*//'
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh 
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh
+vi ex3.sh
+./ex3.sh
+vi ex3.sh
+./ex3.sh
+vi ex3.sh
+./ex3.sh
+vi ex3.sh
+./ex3.sh
+vi ex3.sh
+./exe3.sh
+vi ex3.sh
+./exe3.sh
+./ex3.sh
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+./ex3.sh 
+vi ex3.sh
+exit
+cd datametica/d3
+ls
+egrep '(w.*y).*\1' <<< "why   why"
+egrep '(w.*y){2}.*\1' <<< "why   why"
+egrep '(w.*y){2}.*\1' <<< "whywhy   why"
+egrep '(w.*y){2}.*(w.*y)' <<< "whywhy   why"
+find ~ -name abc.sh
+cp ../d2/abc.sh demo1.sh
+find ~ -name 'demo1.sh'
+locate abc.sh
+sudo updatedb
+locate demo1.sh
+cp demo1.sh demo2.sh
+locate demo2.sh
+sudo updatedb
+locate demo2.sh
+vi /etc/updatedb.conf 
+locate grep
+ls
+which ls
+which wheris
+which whereis
+which alias
+which export
+export abc="demo"
+ls
+rm demo2.sh
+vi demo1.sh 
+cp demo1.sh demo2.sh
+vi demo2.sh
+nl demo1.sh 
+demo 2
+nl demo2.sh 
+./demo1.sh 
+vi demo1.sh 
+nl demo1.sh 
+nl demo2.sh 
+./demo1.sh 
+vi demo1.sh
+./demo1.sh 
+vi demo1.sh 
+vi demo2.sh
+cp demo2.sh demo3.sh
+vi demo3.sh
+cp demo3.sh demo4.sh
+vi demo4.sh
+seq 5
+cp demo4.sh demo5.sh
+vi demo5.sh
+find . -type f -exec sha256sum '{}' \;
+find . -type f -exec sha256sum '{}' \; | sort
+ls
+cp demo5.sh demo6.sh
+vi demo6.sh
+nl demo6.sh
+./demo6.sh /tmp
+vi demo6.sh 
+nl demo6.sh
+./demo6.sh /tmp
+./demo6.sh
+ls
+vi ex1.sh 
+nl emp.txt 
+egrep "^(.*:){4}1*:.*$" emp.txt 
+egrep "^(.*:){4}1.*:.*$" emp.txt 
+egrep "^(.*:){4}1.*:.*$" emp.txt | egrep -v '^(.*:){4}1999:.*$'
+echo list all employees with row number
+nl emp.txt 
+cut -d: -f 2
+cut -d: -f 2 emp.txt 
+cut -d: -f 2 emp.txt  | nl
+cat emp.txt 
+sort -t : -k 2 emp
+sort -t : -k 2 emp.txt 
+cat emp.txt 
+sort -t : -k 2 emp.txt 
+cat emp.txt 
+sort -t : -k 4 -rn emp.txt 
+sort -t : -k 4 -rn emp.txt  | head -n 3
+sort -t : -k 4 -rn emp.txt  | head -n 3 | cut -d : -f 2
+cat emp.txt 
+cat emp1.txt 
+sort emp1.txt | uniq
+vi emp.txt
+cat emp.txt 
+egrep -v "^(.*:){2}PL(:.*){3}$" emp.txt 
+vi emp.txt 
+cat emp.txt 
+grep -v ":clerk$" emp.txt 
+cat emp.txt 
+cat emp.txt | cut -d : -f 3
+cat emp1.txt | cut -d : -f 3
+cat emp1.txt 
+cat emp1.txt | cut -d : -f 3
+cat emp1.txt | cut -d : -f 3 | sort
+cat emp1.txt | cut -d : -f 3 | sort | uniq -c
+cat emp1.txt
+cat emp1.txt | cut -d : -f 6 | sort | uniq -c
+cat emp.txt 
+sort -t : -k 4 -rn emp.txt 
+cat emp.txt 
+sed 
+cat emp.txt 
+sed -n '/name2/p' emp.txt
+sed  '/name2/d' emp.txt
+sed  '1,3d' emp.txt
+sed  '3,$d' emp.txt
+cat emp.txt 
+sed 's/name/NAME/' emp.txt 
+sed 's/name/NAME/g' emp.txt 
+sed -e '1d' -e '$d' emp.txt 
+curl -s "https://www.jmbullion.com/products/#" > /tmp/gs.txt
+vi /tmp/gs.txt
+curl -s "https://www.jmbullion.com/products/#" > /tmp/gs.txt
+grep gounce /tmp/gs.txt
+grep sounce /tmp/gs.txt
+curl -s "https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1.00" > /tmp/ex.txt
+
+grep "ccOutputRslt" /tmp/ex.txt
+echo gold price is 1865.86 dollars/ounce
+echo exchange rate is rs 74.35 per dollar
+bc -l
+curl -s "https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1.00" > /tmp/ex.txt
+curl -s "https://www.jmbullion.com/products/#" > /tmp/gs.txt
+echo "3 * 5" | bc -l
+grep gounce /tmp/gs.txt
+grep sounce /tmp/gs.txt
+grep "ccOutputRslt" /tmp/ex.txt
+ls
+cp demo6.sh demo7.sh
+vi demo7.sh
+nl demo7.sh
+./demo7.sh
+vi demo7.sh 
+vi ex3.sh 
+exit
