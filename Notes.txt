@@ -8,6 +8,19 @@ Exercise:
   Take directory as the first parameter. If not given, then assume current directory.
   If two files have same sha256sum, then they are duplicates.
 
+Exercise:
+	Problem 18 on page 1 in Assignments.pdf on Github
+
+Exercise
+Find current price buying and sellling price of gold and silver in India.
+	In India, gold is sold in Rs/10gms and silver is sold in Rs/Kg.
+	International sites like JmBullion sell gold and silver in $/ounce.
+	Indian taxes on bullion are about 5% higher than USA taxes
+	The difference between buying and selling rates is about 2% in India
+	Hint:
+		1. Gold/silver prices in $/ounce are at "https://www.jmbullion.com/products/#"
+		2. Exchange rate for 1$ to Rs is at  "https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1.00"
+		3. "bc -l" can do fractional calculation
 
 
 
