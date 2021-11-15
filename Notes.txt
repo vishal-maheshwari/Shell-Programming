@@ -1,5 +1,17 @@
 Training material on Github at https://bit.ly/3bXyL4q
 
+Day 3:
+- All commands given during the training on Day 2 are kept on Github;
+  alongwith programs of that day.
+Exercise:
+- Find duplicate files. 
+  Take directory as the first parameter. If not given, then assume current directory.
+  If two files have same sha256sum, then they are duplicates.
+
+
+
+
+
 Day 2:
 - All commands given during the training on Day 1 are kept on Github.
 - setup for login:
