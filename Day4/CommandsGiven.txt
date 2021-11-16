@@ -1,0 +1,118 @@
+cd datametica/d4
+./demo5.sh 
+./maxMin.awk names
+ls
+cp demo5.sh maxMin.sh
+declare -i i=2^3
+echo $i
+declare -i i=$((2^3)); echo $i
+declare -i i=$((2**3)); echo $i
+declare -i i=$((10**10)); echo $i
+ls
+./maxMin.awk names
+./maxMin.sh
+time ./maxMin.awk names
+nl marks1.txt 
+./unixDsa.awk 
+./unixDsa.awk marks1.txt 
+nl marks1.txt 
+./unixDsa.awk marks1.txt 
+nl marks1.txt 
+./unixDsa.awk marks1.txt 
+vi logFile.xml
+nl logFile.xml 
+./workorder.awk logFile.xml 
+ls
+vi logFile.xml 
+./workorder.awk logFile.xml 
+echo customer | awk '{ if ($0 ~/customer/) echo yes}'
+echo customer | awk '{ if ($0 ~ /customer/) echo yes}'
+echo customer | awk '{ if ($0 ~ customer) echo yes}'
+echo customer | awk '{ if ($1 ~ customer) echo yes}'
+echo customer | awk '{ if ($1 ~ custome) echo yes}'
+echo customer | awk '{ if ( $1 ~ custome ) print "yes"}'
+echo customer | awk '{ if ( $1 ~ customer ) print "yes"}'
+echo customer | awk '{ if ( $0 ~ customer ) print "yes"}'
+./workorder.awk logFile.xml 
+nl logFile.xml 
+./workorder.awk logFile.xml 
+nl logFile.xml 
+man printf
+info printf
+printf -v a "\n"
+echo $a
+printf "%s" "$a"
+./workorder.sh
+a=[[ "a" < "b" ]]; echo $a
+[[ "a" < "b" ]] && a=1
+echo $a
+((a)) && echo yes
+a=0
+((a)) && echo yes
+./workorder.sh
+nl workorder.awk
+time ./workorder.sh
+exit
+cd datametica/
+ls
+ls -a d4
+rm ~/.bash_history 
+ls
+cd d4
+which awk
+ls -l /usr/bin/awk
+df -h
+df -h | awk '{print $6 $5}'
+df -h | awk '{print $6 " " $5}'
+vi demo1.awk
+cp ../d3/demo1.sh demo3.sh
+vi demo3.sh 
+cp demo3.sh demo4.sh
+vi demo4.sh
+cp demo4.sh demo5.sh
+vi demo5.sh
+kill -9 2021
+kill -9 1565
+vi demo5.sh 
+ps -u vijay
+ps -fu vijay
+kill -9 7169
+vi demo5.sh 
+man kill
+kill -s SIGTERM 7332
+vi demo5.sh 
+ls
+cp demo2.awk maxMin.awk
+vi names
+nl names
+vi maxMin.awk 
+time ./maxMin.sh
+seq 1000 >> names
+time ./maxMin.sh
+vi maxMin.awk
+ls
+cp maxMin.awk unixDsa.awk
+vi unixDsa.awk 
+cp demo1.awk workorder.awk
+vi workorder.awk 
+cp maxMin.sh workorder.sh
+vi workorder.sh
+ls
+vi workorder.awk
+vi workorder.sh
+exit
+cd datametica/d4
+vi ldap.txt
+cp demo1.awk demo2.awk
+ls
+nl marks.txt 
+vi marks1.txt
+vi /tmp/a
+ls
+cp logFile.xml logFile.yaml
+vi logFile.yaml 
+rm logFile.yaml
+ls
+nl workorder.awk
+time ./workorder.awk logFile.xml 
+exit

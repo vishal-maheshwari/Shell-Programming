@@ -1,5 +1,11 @@
 Training material on Github at https://bit.ly/3bXyL4q
 
+Day 4:
+Awk - Complex processing on a big file.
+simple processing on big/small - grep, etc are ok.
+complex processing on a small file - use best tool
+
+-------------------------------------
 Day 3:
 - All commands given during the training on Day 2 are kept on Github;
   alongwith programs of that day.

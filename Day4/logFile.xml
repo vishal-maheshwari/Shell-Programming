@@ -1,0 +1,17 @@
+<w>
+	values
+</w>
+<workorder>
+	values to be printed
+	customer
+</workorder>
+<w>
+	values
+</w>
+<workorder>
+	This should not be printed
+</workorder>
+<workorder>
+	values to be printed
+	customer
+</workorder>
